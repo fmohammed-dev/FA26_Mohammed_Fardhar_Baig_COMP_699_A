@@ -1,0 +1,16 @@
+{
+  "research_question": "For fixed synthetic graduate-student scenarios, does a structured score combining skill coverage, academic-field compatibility and stated career preferences improve Precision@3 and NDCG@3 over skill-only ranking?",
+  "hypothesis": "Additional compatibility attributes may improve ordering when skill overlap alone leaves tied or contextually unsuitable opportunities; improvement is not assumed for every profile.",
+  "skill_weight": 0.6,
+  "field_weight": 0.25,
+  "preference_weight": 0.15,
+  "preference_components": "Equal weights for opportunity type and work-mode compatibility",
+  "k": 3,
+  "relevance_threshold": 1,
+  "ndcg_gain": "2**grade - 1",
+  "tie_break": "opportunity_id ascending",
+  "fit_or_tuning": "None: fixed attribute scoring; no supervised model, learned weights or validation search",
+  "input_design": "6 manually constructed graduate profiles and 12 fictional opportunities, with all 72 labeled pairs; labels and rationales fixed before scores. No live job postings or real student data.",
+  "label_rubric": {"0": "No useful match in the intended scenario", "1": "Transferable or partial fit, including a material skill, domain or stated-preference limitation", "2": "Strong intended role fit with substantial required-skill and contextual compatibility"},
+  "limitations": "Author-defined grades share concepts with the scoring rule and are not independent judgments. This is a constructed diagnostic benchmark, not held-out evidence of real student utility."
+}

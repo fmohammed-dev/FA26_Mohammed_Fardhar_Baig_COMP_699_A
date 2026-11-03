@@ -1,0 +1,19 @@
+test_bad_weights_rejected (test_career_methods.MethodTests.test_bad_weights_rejected) ... ok
+test_empty_required_rejected (test_career_methods.MethodTests.test_empty_required_rejected) ... ok
+test_invalid_k (test_career_methods.MethodTests.test_invalid_k) ... ok
+test_label_grid_rejected (test_career_methods.MethodTests.test_label_grid_rejected) ... ok
+test_ndcg_hand_calculation (test_career_methods.MethodTests.test_ndcg_hand_calculation) ... ok
+test_ndcg_perfect (test_career_methods.MethodTests.test_ndcg_perfect) ... ok
+test_ndcg_zero (test_career_methods.MethodTests.test_ndcg_zero) ... ok
+test_no_skills (test_career_methods.MethodTests.test_no_skills) ... ok
+test_normalization (test_career_methods.MethodTests.test_normalization) ... ok
+test_partial_coverage (test_career_methods.MethodTests.test_partial_coverage) ... ok
+test_precision_known (test_career_methods.MethodTests.test_precision_known) ... ok
+test_preferences_half (test_career_methods.MethodTests.test_preferences_half) ... ok
+test_score_known (test_career_methods.MethodTests.test_score_known) ... ok
+test_ties (test_career_methods.MethodTests.test_ties) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.001s
+
+OK

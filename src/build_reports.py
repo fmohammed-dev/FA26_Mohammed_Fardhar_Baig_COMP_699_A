@@ -1,0 +1,91 @@
+"""Create the two milestone reports from recorded project evidence."""
+from pathlib import Path
+from xml.sax.saxutils import escape
+import json,csv
+from reportlab.platypus import SimpleDocTemplate,Paragraph,Table,TableStyle,Spacer,PageBreak,Image
+from reportlab.lib.styles import getSampleStyleSheet
+from reportlab.lib import colors
+R=Path(__file__).resolve().parents[1]
+P=json.loads((R/'src/protocol.json').read_text())
+W1=json.loads((R/'results/week_1/execution_summary.json').read_text())
+W2=json.loads((R/'results/week_2/execution_summary.json').read_text())
+STYLE=getSampleStyleSheet();STYLE['Normal'].fontSize=10;STYLE['Normal'].leading=13.2;STYLE['Normal'].spaceAfter=9
+for k in ['Heading1','Heading2']:STYLE[k].textColor=colors.HexColor('#213D5B')
+class Report:
+ def __init__(self,title,week,filename):
+  self.week=week;self.filename=filename;self.story=[Paragraph(escape(title),STYLE['Title'])];self.md=['# '+title+'\n']
+  self.p('Graduate Career Opportunity Recommender | Mohammed Fardhar Baig')
+ def h(self,t):self.story.append(Paragraph(escape(t),STYLE['Heading2']));self.md.append('## '+t+'\n')
+ def p(self,t):self.story.append(Paragraph(escape(t),STYLE['Normal']));self.md.append(t+'\n')
+ def page(self):self.story.append(PageBreak())
+ def table(self,headers,data,widths):
+  tab=Table([headers]+data,colWidths=widths,repeatRows=1);tab.setStyle(TableStyle([('BACKGROUND',(0,0),(-1,0),colors.HexColor('#213D5B')),('TEXTCOLOR',(0,0),(-1,0),colors.white),('FONTSIZE',(0,0),(-1,-1),9),('TOPPADDING',(0,0),(-1,-1),7),('BOTTOMPADDING',(0,0),(-1,-1),7),('ROWBACKGROUNDS',(0,1),(-1,-1),[colors.HexColor('#EEF3F8'),colors.white])]))
+  self.story.extend([tab,Spacer(1,10)]);self.md.append('| '+' | '.join(headers)+' |\n| '+' | '.join(['---']*len(headers))+' |\n'+'\n'.join('| '+' | '.join(map(str,row))+' |' for row in data)+'\n')
+ def save(self):
+  out=R/'docs/step_2'/self.week;out.mkdir(parents=True,exist_ok=True)
+  def footer(c,d):
+   c.setStrokeColor(colors.HexColor('#CCD6E0'));c.line(48,44,564,44);c.setFillColor(colors.HexColor('#526577'));c.setFont('Helvetica',8);c.drawString(48,30,'Graduate Career Opportunity Recommender | '+self.week.replace('_',' ').title());c.drawRightString(564,30,str(d.page))
+  SimpleDocTemplate(str(out/(self.filename+'.pdf')),pagesize=(612,792),leftMargin=48,rightMargin=48,topMargin=40,bottomMargin=58).build(self.story,onFirstPage=footer,onLaterPages=footer)
+  (out/(self.filename+'.md')).write_text('\n'.join(self.md))
+  print(out/(self.filename+'.pdf'))
+
+f=Report('Research Foundation','week_1','research_foundation')
+f.h('1. Research question and tentative answer')
+f.p(P['research_question'])
+f.p('The working hypothesis is that academic-field and stated-preference compatibility may resolve some skill-only ties or unsuitable recommendations. Improvement is not assumed for every profile or metric. The broad proposal is operationalized as a small, transparent structured-ranking study; employment outcomes are outside the current evidence.')
+f.h('2. Evidence required')
+f.p('The intended evidence is a controlled comparison of two rankings over the same candidates and fixed relevance grades. Week 2 will calculate Precision@3 and NDCG@3 per student scenario, macro averages, paired differences and candidate-level failure cases. The Week 1 foundation produces input tables, grade distributions and integrity checks only. A dataset is a source; scores and evaluated ordering differences are computed evidence. Neither alone proves usefulness to actual students.')
+f.h('3. Research inputs and source context')
+f.p('The inputs are six synthetic graduate profiles and twelve fictional career opportunities, giving all 72 profile-opportunity pairs. Profiles cover data science, computer science, business analytics, cybersecurity, health informatics and finance. Attributes include canonical skills, academic field, desired opportunity type and work modes. Opportunities contain required skills, accepted fields, type and mode. No live vacancy data or real student information is used.')
+f.p('Every pair has a fixed grade and rationale. Grade 2 represents strong intended role fit, grade 1 partial or transferable fit or a material contextual limitation, and grade 0 no useful match in that scenario. Grades are explicitly authored before scoring and are not generated from the weighted formula. They are nevertheless based on related concepts, so evaluation is not independent of the scenario design. JSON input files and a SHA-256 manifest are saved under data/synthetic/.')
+f.p('The supplied bibliography provides recommender-system and job-recommendation context. The selected Kaya and Bogers Jobindex paper concerns candidate recommendations used by recruiters; this project ranks opportunities for student profiles. Its deployed method and interaction outcomes are not reproduced. The de Ruijt and Bhulai review highlights how data availability affects method choice and validation, motivating a modest diagnostic scope when interaction data are absent.')
+f.page();f.h('4. Environment and code organization')
+f.p('Executed environment: Python '+W1['python']+', NumPy '+W1['packages']['numpy']+' and pandas '+W1['packages']['pandas']+'. src/requirements.txt pins the tested packages for both stages. Matplotlib supports the Week 2 plot and ReportLab renders the reports. Jupyter/ipykernel are optional interface packages. The method uses fixed arithmetic, not a trained machine-learning model; no random seed is required because no random sampling is performed.')
+f.p('src/prepare_inputs.py constructs the fixed scenarios and their rationales. src/career_methods.py implements validation, normalized skill sets, component scoring and ranking metrics. src/run_foundation.py validates and summarizes inputs. src/career_opportunity_recommender.ipynb presents the executed foundation followed by Week 2. results/week_1/ contains descriptive CSVs and an execution summary. src/protocol.json records the research question and scoring design.')
+f.h('5. Execute the foundation')
+f.p('From the repository root: (1) python -m pip install -r src/requirements.txt ; (2) python src/prepare_inputs.py ; (3) python src/run_foundation.py . Run these as separate commands. Alternatively open the notebook from the root or src folder and execute its Week 1 section in order. No external account, API key or network dataset is needed after dependency installation. Re-running input generation recreates the same fictional inputs; existing generated outputs are overwritten.')
+f.h('6. Current computational accomplishments')
+f.p('The executed foundation contains six complete profiles, twelve opportunities and 72 unique graded pairs. All nine checks passed, covering unique identifiers, unique and complete pair coverage, valid grades, required profile/opportunity fields, rationale presence and matching input digests. There are six distinct academic fields. profile_summary.csv, opportunity_summary.csv and grade_distribution.csv describe representative inputs. The foundation execution summary explicitly records that no comparative experiment is run by this stage.')
+f.h('7. Problems and design qualifications')
+f.p('No historical clicks, applications, placement outcomes or independently annotated relevance pairs are available. Hand-authored examples demonstrate technical feasibility but may favor the assumptions used in their design. Canonical skill names avoid synonym ambiguity rather than solving it. All listed preferences are soft ranking attributes; the model does not establish legal eligibility or minimum professional qualifications. The focused question is a measurable operationalization of the proposal, not evidence that broad career recommendation has been solved.')
+f.h('8. Planned work for the next milestone')
+f.p('The next implementation stage compares skill coverage alone with a fixed 0.60/0.25/0.15 score for skills, academic field and preferences. It adds known-example metric tests, executes the comparison and records improvements and failures without changing labels to favor the result. These reports organize Week 1 and Week 2 by milestone scope; both were prepared during the current work session and are not claims of earlier completion dates.')
+f.save()
+
+b=Report('Method and Baseline','week_2','method_and_baseline')
+b.h('1. Computational method implemented')
+b.p('The method ranks fictional career opportunities for each synthetic student profile using structured attributes. Skill coverage is the size of the intersection between profile skills and opportunity-required skills divided by the number of required skills. Skill strings are lowercased, trimmed and deduplicated. Empty required-skill lists are rejected rather than assigned a perfect match.')
+b.p('Academic-field compatibility is 1 if the profile field is listed among accepted fields and 0 otherwise. Opportunity-type and work-mode matches are binary. Their average gives preference compatibility. The combined score is 0.60 x skill coverage + 0.25 x field compatibility + 0.15 x preference compatibility. These fixed soft weights are not calibrated probabilities or learned parameters. Ties are resolved by opportunity ID in ascending order.')
+b.p('The question is whether these additional attributes improve Precision@3 and NDCG@3 compared with skill-only scoring. No embedding model, classifier, collaborative signal or model training is used. Scoring functions receive profile/opportunity attributes, not relevance labels. Labels enter only the evaluation step after rankings are produced.')
+b.h('2. Responsible source modules')
+b.p('src/career_methods.py contains normalize, components, structured_score, ordered, precision_at_k, ndcg_at_k and validate_inputs. src/prepare_inputs.py defines the synthetic scenarios and labels. src/run_foundation.py records Week 1 validation. src/run_comparison.py executes Week 2 and saves component scores, rankings and metrics. src/test_career_methods.py contains 14 method tests. src/protocol.json fixes the design. The notebook includes the executed input construction, methods, foundation and comparison code, with a test-run cell and observations. src/build_reports.py regenerates both milestone reports.')
+b.h('3. Baseline and evaluation criteria')
+b.p('The reference ranks opportunities using skill coverage alone. It uses the same twelve candidates and tie-break rule as the combined score. Precision@3 treats grades 1 and 2 as relevant and divides the relevant top-three count by 3. NDCG@3 uses gain 2^grade - 1, discount log2(rank + 1), and an ideal ordering derived from all twelve grades for that profile. An all-zero ideal gives NDCG 0. Per-profile values are macro-averaged; candidate pairs are not treated as independent statistical trials.')
+b.page();b.h('4. Fixed experimental procedure')
+b.p('The frozen diagnostic collection contains six profiles, twelve opportunities and all 72 pair judgments. The same input files are used for both milestones. The rubric and per-pair rationales are available in data/synthetic/relevance.json. Profiles have no missing required attributes; cross-domain overlap in generic skills deliberately creates cases where skill-only matches can be contextually weak.')
+b.p('Weights, K=3, the relevance threshold, gain convention and tie-breaking are declared before the first comparison. The comparison checks all input hashes and the protocol bytes. No labels, candidates or weights were changed after observing metrics. There is no supervised train/test partition because the method fits no model, but the constructed benchmark also is not independent held-out evidence. Later tuning must use separate development scenarios and final evaluation judgments.')
+b.h('5. Reproduction instructions')
+for cmd in ['python -m pip install -r src/requirements.txt','python src/prepare_inputs.py','python src/run_foundation.py',"python -m unittest discover -s src -p 'test_*.py' -v",'python src/run_comparison.py','python src/build_reports.py']:b.p(cmd)
+b.p('Run these separate commands from the repository root. The notebook can instead be opened from the root or src directory and run in order after selecting the environment containing the dependencies. Repeated comparison runs overwrite generated Week 2 evidence without changing the Week 1 output files. Input regeneration is deterministic. No internet data acquisition or API credentials are used.')
+b.h('6. Initial experimental results')
+with (R/'results/week_2/metrics_summary.csv').open() as q:metric_rows=list(csv.DictReader(q))
+b.table(['Method','Macro Precision@3','Macro NDCG@3'],[[v['method'],f"{float(v['precision_at_3']):.6f}",f"{float(v['ndcg_at_3']):.6f}"] for v in metric_rows],[145,150,150])
+b.p('The combined score increases macro NDCG@3 by 0.099908 while leaving macro Precision@3 unchanged. It places high-grade opportunities earlier within these constructed cases, but does not increase the average relevant top-three count. NDCG improves for S01, S02, S04 and S06 and is unchanged for S03 and S05. The Precision@3 improvement for S01 is canceled by a decline for S02.')
+b.page();b.h('Results by scenario and failure analysis')
+with (R/'results/week_2/paired_differences.csv').open() as q:paired=list(csv.DictReader(q))
+b.table(['Scenario','Skill P@3','Combined P@3','NDCG change'],[[v['student_id'],f"{float(v['precision_at_3_skill_only']):.6f}",f"{float(v['precision_at_3_structured']):.6f}",f"{float(v['ndcg_at_3_delta']):+.6f}"] for v in paired],[100,110,125,110])
+b.story.append(Image(str(R/'results/week_2/ndcg_by_student.png'),width=420,height=216));b.md.append('![Initial NDCG by scenario](../../../results/week_2/ndcg_by_student.png)\n')
+b.p('For S02, the preferred remote software internship O04 moves from rank 2 to rank 1, improving NDCG. However, the combined score introduces O02 at rank 3 despite grade 0 and replaces a grade-1 opportunity; Precision@3 falls from 1.000000 to 0.666667. O02 accepts computer science, but the profile lacks statistics and the intended scenario does not judge the role useful. Broad field acceptance is insufficient to resolve this mismatch.')
+b.p('For S05, finance internship O12 remains rank 3 with grade 0 under both methods. Strong Excel/SQL coverage outweighs its domain and opportunity-type mismatch. A weighted soft score does not enforce every contextual condition. These are retained failure cases, not corrected by post hoc relabeling. Full rankings and score_components.csv make every recommendation traceable.')
+b.page();b.h('7. Validation performed')
+b.p('All 14 automated method tests passed: skill normalization, partial coverage, a known combined score, half preference compatibility, an empty profile-skill set, rejection of empty opportunity requirements, invalid weight sums, deterministic ties, known Precision@3, perfect/zero/hand-calculated NDCG, invalid K and missing pair coverage. Known-value tests check the formulas independently of the observed experiment.')
+b.p('All nine foundation checks and thirteen Week 2 input/numerical checks passed. Additional Week 2 checks include finite bounded scores, two complete rankings per profile, unchanged grades and unchanged protocol bytes. Same-input repeated execution produced byte-identical ranking, score and metric CSVs. results/week_2/repeatability.json records their hashes. Repeated execution verifies deterministic computation; it is not an independent experimental sample.')
+b.h('8. Methodological problems and unresolved questions')
+b.p('The main limitation is measurement validity: author-defined grades share conceptual assumptions with the method. They are fixed before scoring but are not independent judgments, and favorable results could reflect the scenario design. Six profiles and twelve opportunities do not represent the graduate labor market. Generic skill overlap, binary fields and soft preferences simplify professional fit.')
+b.p('The higher average NDCG does not establish real student utility, placement success, fairness or current vacancy relevance. There is no statistical superiority claim. Cross-domain failures show that a hard-constraint policy may be worth testing, but no constraint revisions or weight search are implemented in this milestone. Future development must separate rule selection from final evaluation.')
+b.p('Next priorities are additional varied scenarios, independent judgments where feasible, a separate development/evaluation design before tuning, and systematic inspection of hard versus soft compatibility. These are Week 3 plans. The present milestone demonstrates an executable method and initial evidence, not completed research.')
+b.h('Evidence provenance and literature context')
+b.p('Executed Python '+W2['python']+'; '+', '.join(k+' '+v for k,v in W2['packages'].items())+'. Inputs, score components, complete rankings, per-profile and macro metrics, validation logs and repeatability hashes are included. Exact environment and protocol hashes are recorded in execution_summary.json. Both milestone stages were prepared now; no earlier work or commit dates are implied.')
+b.p('Kaya, M., & Bogers, T. (2026). Analyzing the Effects of a Human-in-the-Loop Candidate Recommendation Algorithm at Jobindex. ACM Transactions on Recommender Systems. https://doi.org/10.1145/3801092 . This is selected reading about recruiter-facing candidate recommendations, not an algorithm or result reproduced here.')
+b.p('de Ruijt, C., & Bhulai, S. (2021). Job Recommender Systems: A Review. https://arxiv.org/abs/2111.13576 . Jarvelin, K., & Kekalainen, J. (2002). Cumulated gain-based evaluation of IR techniques. ACM TOIS, 20(4), 422-446. https://doi.org/10.1145/582415.582418 . The supplied bibliography is retained under docs/references/.')
+b.save()

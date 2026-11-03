@@ -1,0 +1,13 @@
+opportunity_id,title,required_skills,accepted_fields,type,mode
+O01,Data analyst,sql|tableau,data_science|business_analytics,full_time,hybrid
+O02,Data science intern,python|statistics,data_science|computer_science,internship,onsite
+O03,Backend developer,python|git,computer_science,full_time,onsite
+O04,Software engineering intern,java|git,computer_science,internship,remote
+O05,Business analyst,excel|requirements,business_analytics|computer_science,full_time,hybrid
+O06,Reporting analyst,sql|powerbi,business_analytics|data_science,full_time,onsite
+O07,Security analyst,linux|security,cybersecurity,full_time,onsite
+O08,Security intern,networking|security,cybersecurity,internship,hybrid
+O09,Clinical data analyst,sql|healthcare,health_informatics|data_science,full_time,hybrid
+O10,Health data intern,excel|healthcare,health_informatics,internship,onsite
+O11,Risk analyst,statistics|excel,finance|business_analytics,full_time,onsite
+O12,Finance intern,excel|sql,finance,internship,remote

@@ -1,0 +1,90 @@
+[
+  {
+    "student_id": "S01",
+    "field": "data_science",
+    "skills": [
+      "python",
+      "sql",
+      "statistics",
+      "tableau"
+    ],
+    "preferred_type": "full_time",
+    "preferred_modes": [
+      "remote",
+      "hybrid"
+    ]
+  },
+  {
+    "student_id": "S02",
+    "field": "computer_science",
+    "skills": [
+      "python",
+      "java",
+      "git",
+      "sql"
+    ],
+    "preferred_type": "internship",
+    "preferred_modes": [
+      "remote"
+    ]
+  },
+  {
+    "student_id": "S03",
+    "field": "business_analytics",
+    "skills": [
+      "sql",
+      "excel",
+      "powerbi",
+      "python"
+    ],
+    "preferred_type": "full_time",
+    "preferred_modes": [
+      "onsite",
+      "hybrid"
+    ]
+  },
+  {
+    "student_id": "S04",
+    "field": "cybersecurity",
+    "skills": [
+      "networking",
+      "linux",
+      "python",
+      "security"
+    ],
+    "preferred_type": "internship",
+    "preferred_modes": [
+      "hybrid",
+      "remote"
+    ]
+  },
+  {
+    "student_id": "S05",
+    "field": "health_informatics",
+    "skills": [
+      "sql",
+      "excel",
+      "healthcare",
+      "python"
+    ],
+    "preferred_type": "full_time",
+    "preferred_modes": [
+      "remote",
+      "hybrid"
+    ]
+  },
+  {
+    "student_id": "S06",
+    "field": "finance",
+    "skills": [
+      "excel",
+      "statistics",
+      "sql",
+      "python"
+    ],
+    "preferred_type": "internship",
+    "preferred_modes": [
+      "remote"
+    ]
+  }
+]

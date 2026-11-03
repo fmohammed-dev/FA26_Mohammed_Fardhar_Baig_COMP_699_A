@@ -1,0 +1,18 @@
+{
+  "profiles": 6,
+  "opportunities": 12,
+  "pairs": 72,
+  "fields": 6,
+  "checks_passed": 9,
+  "comparative_experiment_executed": false,
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3"
+  },
+  "input_hashes": {
+    "opportunities.json": "e41fee5972bd077f221f8ba044487336e60522b324036e43473ebf099bb6850c",
+    "profiles.json": "8cdc6ce1665751bef3a80fee821ffa92e4fe5790b8f8a07ae94b5eebdcf597dd",
+    "relevance.json": "8113372ac72b8acac51246ecd5587549c150312d96049a9496b77661f43a96d2"
+  }
+}

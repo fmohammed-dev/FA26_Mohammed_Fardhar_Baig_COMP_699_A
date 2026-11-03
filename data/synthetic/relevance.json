@@ -1,0 +1,434 @@
+[
+  {
+    "student_id": "S01",
+    "opportunity_id": "O01",
+    "grade": 2,
+    "rationale": "Direct analyst role with SQL/Tableau and preferred full-time hybrid context"
+  },
+  {
+    "student_id": "S01",
+    "opportunity_id": "O02",
+    "grade": 1,
+    "rationale": "Strong technical overlap but internship/onsite conflicts with stated preferences"
+  },
+  {
+    "student_id": "S01",
+    "opportunity_id": "O03",
+    "grade": 0,
+    "rationale": "No useful role/domain fit in this constructed scenario"
+  },
+  {
+    "student_id": "S01",
+    "opportunity_id": "O04",
+    "grade": 0,
+    "rationale": "No useful role/domain fit in this constructed scenario"
+  },
+  {
+    "student_id": "S01",
+    "opportunity_id": "O05",
+    "grade": 0,
+    "rationale": "No useful role/domain fit in this constructed scenario"
+  },
+  {
+    "student_id": "S01",
+    "opportunity_id": "O06",
+    "grade": 1,
+    "rationale": "Transferable SQL/data background, missing Power BI"
+  },
+  {
+    "student_id": "S01",
+    "opportunity_id": "O07",
+    "grade": 0,
+    "rationale": "No useful role/domain fit in this constructed scenario"
+  },
+  {
+    "student_id": "S01",
+    "opportunity_id": "O08",
+    "grade": 0,
+    "rationale": "No useful role/domain fit in this constructed scenario"
+  },
+  {
+    "student_id": "S01",
+    "opportunity_id": "O09",
+    "grade": 1,
+    "rationale": "Transferable SQL but no healthcare skill"
+  },
+  {
+    "student_id": "S01",
+    "opportunity_id": "O10",
+    "grade": 0,
+    "rationale": "No useful role/domain fit in this constructed scenario"
+  },
+  {
+    "student_id": "S01",
+    "opportunity_id": "O11",
+    "grade": 1,
+    "rationale": "Statistics transfers, but Excel and finance context are limited"
+  },
+  {
+    "student_id": "S01",
+    "opportunity_id": "O12",
+    "grade": 0,
+    "rationale": "No useful role/domain fit in this constructed scenario"
+  },
+  {
+    "student_id": "S02",
+    "opportunity_id": "O01",
+    "grade": 1,
+    "rationale": "Partial SQL fit, missing Tableau and intended analyst specialization"
+  },
+  {
+    "student_id": "S02",
+    "opportunity_id": "O02",
+    "grade": 0,
+    "rationale": "No useful role/domain fit in this constructed scenario"
+  },
+  {
+    "student_id": "S02",
+    "opportunity_id": "O03",
+    "grade": 1,
+    "rationale": "Direct software skill fit but full-time onsite conflicts with preferences"
+  },
+  {
+    "student_id": "S02",
+    "opportunity_id": "O04",
+    "grade": 2,
+    "rationale": "Direct Java/Git fit and preferred remote internship"
+  },
+  {
+    "student_id": "S02",
+    "opportunity_id": "O05",
+    "grade": 0,
+    "rationale": "No useful role/domain fit in this constructed scenario"
+  },
+  {
+    "student_id": "S02",
+    "opportunity_id": "O06",
+    "grade": 0,
+    "rationale": "No useful role/domain fit in this constructed scenario"
+  },
+  {
+    "student_id": "S02",
+    "opportunity_id": "O07",
+    "grade": 0,
+    "rationale": "No useful role/domain fit in this constructed scenario"
+  },
+  {
+    "student_id": "S02",
+    "opportunity_id": "O08",
+    "grade": 0,
+    "rationale": "No useful role/domain fit in this constructed scenario"
+  },
+  {
+    "student_id": "S02",
+    "opportunity_id": "O09",
+    "grade": 0,
+    "rationale": "No useful role/domain fit in this constructed scenario"
+  },
+  {
+    "student_id": "S02",
+    "opportunity_id": "O10",
+    "grade": 0,
+    "rationale": "No useful role/domain fit in this constructed scenario"
+  },
+  {
+    "student_id": "S02",
+    "opportunity_id": "O11",
+    "grade": 0,
+    "rationale": "No useful role/domain fit in this constructed scenario"
+  },
+  {
+    "student_id": "S02",
+    "opportunity_id": "O12",
+    "grade": 0,
+    "rationale": "No useful role/domain fit in this constructed scenario"
+  },
+  {
+    "student_id": "S03",
+    "opportunity_id": "O01",
+    "grade": 1,
+    "rationale": "Transferable SQL/analytics fit, missing Tableau"
+  },
+  {
+    "student_id": "S03",
+    "opportunity_id": "O02",
+    "grade": 0,
+    "rationale": "No useful role/domain fit in this constructed scenario"
+  },
+  {
+    "student_id": "S03",
+    "opportunity_id": "O03",
+    "grade": 0,
+    "rationale": "No useful role/domain fit in this constructed scenario"
+  },
+  {
+    "student_id": "S03",
+    "opportunity_id": "O04",
+    "grade": 0,
+    "rationale": "No useful role/domain fit in this constructed scenario"
+  },
+  {
+    "student_id": "S03",
+    "opportunity_id": "O05",
+    "grade": 1,
+    "rationale": "Relevant field and Excel, missing requirements skill"
+  },
+  {
+    "student_id": "S03",
+    "opportunity_id": "O06",
+    "grade": 2,
+    "rationale": "Direct SQL/Power BI and preferred full-time onsite role"
+  },
+  {
+    "student_id": "S03",
+    "opportunity_id": "O07",
+    "grade": 0,
+    "rationale": "No useful role/domain fit in this constructed scenario"
+  },
+  {
+    "student_id": "S03",
+    "opportunity_id": "O08",
+    "grade": 0,
+    "rationale": "No useful role/domain fit in this constructed scenario"
+  },
+  {
+    "student_id": "S03",
+    "opportunity_id": "O09",
+    "grade": 0,
+    "rationale": "No useful role/domain fit in this constructed scenario"
+  },
+  {
+    "student_id": "S03",
+    "opportunity_id": "O10",
+    "grade": 0,
+    "rationale": "No useful role/domain fit in this constructed scenario"
+  },
+  {
+    "student_id": "S03",
+    "opportunity_id": "O11",
+    "grade": 1,
+    "rationale": "Partial Excel and business fit, missing statistics"
+  },
+  {
+    "student_id": "S03",
+    "opportunity_id": "O12",
+    "grade": 1,
+    "rationale": "Useful reporting skills, but finance specialization and internship differ from target"
+  },
+  {
+    "student_id": "S04",
+    "opportunity_id": "O01",
+    "grade": 0,
+    "rationale": "No useful role/domain fit in this constructed scenario"
+  },
+  {
+    "student_id": "S04",
+    "opportunity_id": "O02",
+    "grade": 0,
+    "rationale": "No useful role/domain fit in this constructed scenario"
+  },
+  {
+    "student_id": "S04",
+    "opportunity_id": "O03",
+    "grade": 1,
+    "rationale": "Python is transferable but Git and general software role remain gaps"
+  },
+  {
+    "student_id": "S04",
+    "opportunity_id": "O04",
+    "grade": 0,
+    "rationale": "No useful role/domain fit in this constructed scenario"
+  },
+  {
+    "student_id": "S04",
+    "opportunity_id": "O05",
+    "grade": 0,
+    "rationale": "No useful role/domain fit in this constructed scenario"
+  },
+  {
+    "student_id": "S04",
+    "opportunity_id": "O06",
+    "grade": 0,
+    "rationale": "No useful role/domain fit in this constructed scenario"
+  },
+  {
+    "student_id": "S04",
+    "opportunity_id": "O07",
+    "grade": 1,
+    "rationale": "Direct security skills but full-time onsite conflicts with internship preference"
+  },
+  {
+    "student_id": "S04",
+    "opportunity_id": "O08",
+    "grade": 2,
+    "rationale": "Direct networking/security and preferred hybrid internship"
+  },
+  {
+    "student_id": "S04",
+    "opportunity_id": "O09",
+    "grade": 0,
+    "rationale": "No useful role/domain fit in this constructed scenario"
+  },
+  {
+    "student_id": "S04",
+    "opportunity_id": "O10",
+    "grade": 0,
+    "rationale": "No useful role/domain fit in this constructed scenario"
+  },
+  {
+    "student_id": "S04",
+    "opportunity_id": "O11",
+    "grade": 0,
+    "rationale": "No useful role/domain fit in this constructed scenario"
+  },
+  {
+    "student_id": "S04",
+    "opportunity_id": "O12",
+    "grade": 0,
+    "rationale": "No useful role/domain fit in this constructed scenario"
+  },
+  {
+    "student_id": "S05",
+    "opportunity_id": "O01",
+    "grade": 1,
+    "rationale": "Transferable SQL, missing Tableau"
+  },
+  {
+    "student_id": "S05",
+    "opportunity_id": "O02",
+    "grade": 0,
+    "rationale": "No useful role/domain fit in this constructed scenario"
+  },
+  {
+    "student_id": "S05",
+    "opportunity_id": "O03",
+    "grade": 0,
+    "rationale": "No useful role/domain fit in this constructed scenario"
+  },
+  {
+    "student_id": "S05",
+    "opportunity_id": "O04",
+    "grade": 0,
+    "rationale": "No useful role/domain fit in this constructed scenario"
+  },
+  {
+    "student_id": "S05",
+    "opportunity_id": "O05",
+    "grade": 1,
+    "rationale": "Excel is useful but requirements skill is absent"
+  },
+  {
+    "student_id": "S05",
+    "opportunity_id": "O06",
+    "grade": 1,
+    "rationale": "SQL reporting transfers but Power BI is absent"
+  },
+  {
+    "student_id": "S05",
+    "opportunity_id": "O07",
+    "grade": 0,
+    "rationale": "No useful role/domain fit in this constructed scenario"
+  },
+  {
+    "student_id": "S05",
+    "opportunity_id": "O08",
+    "grade": 0,
+    "rationale": "No useful role/domain fit in this constructed scenario"
+  },
+  {
+    "student_id": "S05",
+    "opportunity_id": "O09",
+    "grade": 2,
+    "rationale": "Direct healthcare/SQL and preferred full-time hybrid context"
+  },
+  {
+    "student_id": "S05",
+    "opportunity_id": "O10",
+    "grade": 1,
+    "rationale": "Domain and tools align but internship/onsite differ from preferences"
+  },
+  {
+    "student_id": "S05",
+    "opportunity_id": "O11",
+    "grade": 0,
+    "rationale": "No useful role/domain fit in this constructed scenario"
+  },
+  {
+    "student_id": "S05",
+    "opportunity_id": "O12",
+    "grade": 0,
+    "rationale": "No useful role/domain fit in this constructed scenario"
+  },
+  {
+    "student_id": "S06",
+    "opportunity_id": "O01",
+    "grade": 0,
+    "rationale": "No useful role/domain fit in this constructed scenario"
+  },
+  {
+    "student_id": "S06",
+    "opportunity_id": "O02",
+    "grade": 1,
+    "rationale": "Python/statistics transfer but data-science context and onsite mode are limitations"
+  },
+  {
+    "student_id": "S06",
+    "opportunity_id": "O03",
+    "grade": 0,
+    "rationale": "No useful role/domain fit in this constructed scenario"
+  },
+  {
+    "student_id": "S06",
+    "opportunity_id": "O04",
+    "grade": 0,
+    "rationale": "No useful role/domain fit in this constructed scenario"
+  },
+  {
+    "student_id": "S06",
+    "opportunity_id": "O05",
+    "grade": 1,
+    "rationale": "Excel transfers but business requirements skill is absent"
+  },
+  {
+    "student_id": "S06",
+    "opportunity_id": "O06",
+    "grade": 1,
+    "rationale": "SQL reporting transfers but Power BI is absent"
+  },
+  {
+    "student_id": "S06",
+    "opportunity_id": "O07",
+    "grade": 0,
+    "rationale": "No useful role/domain fit in this constructed scenario"
+  },
+  {
+    "student_id": "S06",
+    "opportunity_id": "O08",
+    "grade": 0,
+    "rationale": "No useful role/domain fit in this constructed scenario"
+  },
+  {
+    "student_id": "S06",
+    "opportunity_id": "O09",
+    "grade": 0,
+    "rationale": "No useful role/domain fit in this constructed scenario"
+  },
+  {
+    "student_id": "S06",
+    "opportunity_id": "O10",
+    "grade": 0,
+    "rationale": "No useful role/domain fit in this constructed scenario"
+  },
+  {
+    "student_id": "S06",
+    "opportunity_id": "O11",
+    "grade": 1,
+    "rationale": "Direct quantitative tools and finance field but full-time onsite differs from preference"
+  },
+  {
+    "student_id": "S06",
+    "opportunity_id": "O12",
+    "grade": 2,
+    "rationale": "Direct Excel/SQL and preferred remote finance internship"
+  }
+]

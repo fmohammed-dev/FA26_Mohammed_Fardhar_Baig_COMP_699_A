@@ -1,0 +1,7 @@
+student_id,field,skills,preferred_type,preferred_modes
+S01,data_science,4,full_time,remote|hybrid
+S02,computer_science,4,internship,remote
+S03,business_analytics,4,full_time,onsite|hybrid
+S04,cybersecurity,4,internship,hybrid|remote
+S05,health_informatics,4,full_time,remote|hybrid
+S06,finance,4,internship,remote

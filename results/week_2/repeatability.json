@@ -1,0 +1,12 @@
+{
+  "same_input_repeated_execution": true,
+  "byte_identical_ranking_and_metric_csvs": true,
+  "sha256": {
+    "score_components.csv": "e0d94e9d676d65f4ebe49581fdedd79e84b69faf95c40626554f97e04332769c",
+    "rankings.csv": "abc9b8b2c366d9e6ca38196695086ce56cbc777bbba54242757c58da88eaa550",
+    "metrics_by_student.csv": "06e6b753c26b06cb2fda8a534b405d1adf3c0aa081197ef0a68754878d4ccad9",
+    "metrics_summary.csv": "78e6c0fbdf5333eee0de7991564e24e41eda125424b74ea77621e6984c48b3f4",
+    "paired_differences.csv": "aa4c09bbba5a2429e2f4889d2aab208e5ec949179528877381c67f22904d20b4"
+  },
+  "scope": "Deterministic computation check only, not independent experimental trials"
+}

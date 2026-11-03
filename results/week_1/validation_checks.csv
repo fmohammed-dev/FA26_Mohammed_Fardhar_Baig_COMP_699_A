@@ -1,0 +1,10 @@
+check,passed
+unique_student_ids,True
+unique_opportunity_ids,True
+unique_labeled_pairs,True
+complete_pair_grid,True
+valid_relevance_grades,True
+required_profile_fields,True
+required_opportunity_fields,True
+pair_rationales_present,True
+input_digests_match,True

@@ -1,0 +1,8 @@
+{
+  "provenance": "Manually authored fictional diagnostic cases; no real people or real vacancies. Grades are fixed before scoring and are not independently annotated.",
+  "sha256": {
+    "opportunities.json": "e41fee5972bd077f221f8ba044487336e60522b324036e43473ebf099bb6850c",
+    "profiles.json": "8cdc6ce1665751bef3a80fee821ffa92e4fe5790b8f8a07ae94b5eebdcf597dd",
+    "relevance.json": "8113372ac72b8acac51246ecd5587549c150312d96049a9496b77661f43a96d2"
+  }
+}

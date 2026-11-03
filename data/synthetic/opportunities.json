@@ -1,0 +1,164 @@
+[
+  {
+    "opportunity_id": "O01",
+    "title": "Data analyst",
+    "required_skills": [
+      "sql",
+      "tableau"
+    ],
+    "accepted_fields": [
+      "data_science",
+      "business_analytics"
+    ],
+    "type": "full_time",
+    "mode": "hybrid"
+  },
+  {
+    "opportunity_id": "O02",
+    "title": "Data science intern",
+    "required_skills": [
+      "python",
+      "statistics"
+    ],
+    "accepted_fields": [
+      "data_science",
+      "computer_science"
+    ],
+    "type": "internship",
+    "mode": "onsite"
+  },
+  {
+    "opportunity_id": "O03",
+    "title": "Backend developer",
+    "required_skills": [
+      "python",
+      "git"
+    ],
+    "accepted_fields": [
+      "computer_science"
+    ],
+    "type": "full_time",
+    "mode": "onsite"
+  },
+  {
+    "opportunity_id": "O04",
+    "title": "Software engineering intern",
+    "required_skills": [
+      "java",
+      "git"
+    ],
+    "accepted_fields": [
+      "computer_science"
+    ],
+    "type": "internship",
+    "mode": "remote"
+  },
+  {
+    "opportunity_id": "O05",
+    "title": "Business analyst",
+    "required_skills": [
+      "excel",
+      "requirements"
+    ],
+    "accepted_fields": [
+      "business_analytics",
+      "computer_science"
+    ],
+    "type": "full_time",
+    "mode": "hybrid"
+  },
+  {
+    "opportunity_id": "O06",
+    "title": "Reporting analyst",
+    "required_skills": [
+      "sql",
+      "powerbi"
+    ],
+    "accepted_fields": [
+      "business_analytics",
+      "data_science"
+    ],
+    "type": "full_time",
+    "mode": "onsite"
+  },
+  {
+    "opportunity_id": "O07",
+    "title": "Security analyst",
+    "required_skills": [
+      "linux",
+      "security"
+    ],
+    "accepted_fields": [
+      "cybersecurity"
+    ],
+    "type": "full_time",
+    "mode": "onsite"
+  },
+  {
+    "opportunity_id": "O08",
+    "title": "Security intern",
+    "required_skills": [
+      "networking",
+      "security"
+    ],
+    "accepted_fields": [
+      "cybersecurity"
+    ],
+    "type": "internship",
+    "mode": "hybrid"
+  },
+  {
+    "opportunity_id": "O09",
+    "title": "Clinical data analyst",
+    "required_skills": [
+      "sql",
+      "healthcare"
+    ],
+    "accepted_fields": [
+      "health_informatics",
+      "data_science"
+    ],
+    "type": "full_time",
+    "mode": "hybrid"
+  },
+  {
+    "opportunity_id": "O10",
+    "title": "Health data intern",
+    "required_skills": [
+      "excel",
+      "healthcare"
+    ],
+    "accepted_fields": [
+      "health_informatics"
+    ],
+    "type": "internship",
+    "mode": "onsite"
+  },
+  {
+    "opportunity_id": "O11",
+    "title": "Risk analyst",
+    "required_skills": [
+      "statistics",
+      "excel"
+    ],
+    "accepted_fields": [
+      "finance",
+      "business_analytics"
+    ],
+    "type": "full_time",
+    "mode": "onsite"
+  },
+  {
+    "opportunity_id": "O12",
+    "title": "Finance intern",
+    "required_skills": [
+      "excel",
+      "sql"
+    ],
+    "accepted_fields": [
+      "finance"
+    ],
+    "type": "internship",
+    "mode": "remote"
+  }
+]
