@@ -12,8 +12,22 @@ test_precision_known (test_career_methods.MethodTests.test_precision_known) ... 
 test_preferences_half (test_career_methods.MethodTests.test_preferences_half) ... ok
 test_score_known (test_career_methods.MethodTests.test_score_known) ... ok
 test_ties (test_career_methods.MethodTests.test_ties) ... ok
+test_duplicate_identifiers_are_rejected (test_input_validation.InputValidationTests.test_duplicate_identifiers_are_rejected) ... ok
+test_duplicate_pairs_are_rejected (test_input_validation.InputValidationTests.test_duplicate_pairs_are_rejected) ... ok
+test_empty_collections_are_rejected (test_input_validation.InputValidationTests.test_empty_collections_are_rejected) ... ok
+test_empty_student_skills_remain_valid (test_input_validation.InputValidationTests.test_empty_student_skills_remain_valid) ... ok
+test_invalid_grades_are_rejected (test_input_validation.InputValidationTests.test_invalid_grades_are_rejected) ... ok
+test_list_fields_reject_blank_or_non_string_members (test_input_validation.InputValidationTests.test_list_fields_reject_blank_or_non_string_members) ... ok
+test_list_fields_reject_strings (test_input_validation.InputValidationTests.test_list_fields_reject_strings) ... ok
+test_missing_fields_give_value_errors (test_input_validation.InputValidationTests.test_missing_fields_give_value_errors) ... ok
+test_non_list_collections_are_rejected (test_input_validation.InputValidationTests.test_non_list_collections_are_rejected) ... ok
+test_non_object_rows_are_rejected (test_input_validation.InputValidationTests.test_non_object_rows_are_rejected) ... ok
+test_required_lists_cannot_be_empty (test_input_validation.InputValidationTests.test_required_lists_cannot_be_empty) ... ok
+test_scalar_fields_reject_blank_and_non_string_values (test_input_validation.InputValidationTests.test_scalar_fields_reject_blank_and_non_string_values) ... ok
+test_unknown_references_are_rejected (test_input_validation.InputValidationTests.test_unknown_references_are_rejected) ... ok
+test_valid_inputs_keep_existing_check_names (test_input_validation.InputValidationTests.test_valid_inputs_keep_existing_check_names) ... ok
 
 ----------------------------------------------------------------------
-Ran 14 tests in 0.001s
+Ran 28 tests in 0.002s
 
 OK

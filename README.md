@@ -58,3 +58,8 @@ The data are author-constructed and the judgments are not independent. Although 
 The selected Jobindex paper concerns candidate recommendations for recruiters. It provides related context; this code neither reproduces that system nor measures recruiter interaction. Future work will expand scenarios, strengthen independent relevance judgments, separate development and evaluation before tuning, and examine hard versus soft constraints. Week 3 and the final combined submission remain pending.
 
 The two completed milestone sections were prepared during the current work session. Their numbering describes assignment scope, not backdated implementation or commit history.
+
+## Maintenance: validation and readability
+Input validation now rejects empty datasets, malformed collection fields, missing identifiers and invalid values with field-specific messages. Empty student skill lists remain supported. The matching method and experiment scripts use expanded statements, descriptive names and short function explanations; the notebook includes the same updated code.
+
+The current suite contains 28 tests: the 14 original method tests and 14 input-validation regression tests. Both script entry points and the notebook completed successfully. All 11 existing result CSVs, including scores, rankings and metrics, were byte-identical to the original milestone outputs. The milestone reports retain their original experimental record.
