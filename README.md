@@ -55,9 +55,18 @@ No API credentials, live student records or external dataset downloads are requi
 ## Interpretation and next work
 The data are author-constructed and the judgments are not independent. Although grades were specified before scoring, they share concepts with the scoring rule; apparent improvements may partly reflect scenario design. There is no train/test split, learned weight, parameter tuning or statistical superiority claim. Soft preferences are not eligibility guarantees or universal requirements.
 
-The selected Jobindex paper concerns candidate recommendations for recruiters. It provides related context; this code neither reproduces that system nor measures recruiter interaction. Future work will expand scenarios, strengthen independent relevance judgments, separate development and evaluation before tuning, and examine hard versus soft constraints. Week 3 and the final combined submission remain pending.
+The selected Jobindex paper concerns candidate recommendations for recruiters. It provides related context; this code neither reproduces that system nor measures recruiter interaction. Future work will expand scenarios, strengthen independent relevance judgments, separate development and evaluation before tuning, and examine hard versus soft constraints. The final combined submission remains pending.
 
 ## Maintenance: validation and readability
 Input validation now rejects empty datasets, malformed collection fields, missing identifiers and invalid values with field-specific messages. Empty student skill lists remain supported. The matching method and experiment scripts use expanded statements, descriptive names and short function explanations; the notebook includes the same updated code.
 
 The current suite contains 28 tests: the 14 original method tests and 14 input-validation regression tests. Both script entry points and the notebook completed successfully. All 11 existing result CSVs, including scores, rankings and metrics, were byte-identical to the original milestone outputs. The milestone reports retain their original experimental record.
+
+## Week 3 preliminary evidence
+
+The component-removal analysis compares the full structured score with the skill-only reference and two conditions that remove either academic-field compatibility or preferences. It measures how each term contributes to ranking on the existing benchmark.
+
+Run `python src/run_week3_evidence.py` from the repository root to recreate the tables in `results/week_3/`. The script uses only the Python standard library. The notebook also includes a runnable Week 3 section with the recorded results and observations.
+
+- [Preliminary evidence report](docs/step_2/week_3/preliminary_evidence.pdf)
+- [Editable report](docs/step_2/week_3/preliminary_evidence.md)
