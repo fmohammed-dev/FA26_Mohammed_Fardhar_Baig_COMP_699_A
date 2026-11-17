@@ -1,0 +1,722 @@
+[
+  {
+    "student_id": "S07",
+    "opportunity_id": "O01",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 1,
+    "preference_type_match": false,
+    "rationale": "Strong SQL/Tableau coverage, but full-time hybrid conflicts with remote internship goal",
+    "review_status": "author_provisional",
+    "preference_mode_match": false
+  },
+  {
+    "student_id": "S07",
+    "opportunity_id": "O02",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 1,
+    "preference_type_match": true,
+    "rationale": "Technical match, but onsite internship conflicts with remote-only mode",
+    "review_status": "author_provisional",
+    "preference_mode_match": false
+  },
+  {
+    "student_id": "S07",
+    "opportunity_id": "O03",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 0,
+    "preference_type_match": false,
+    "rationale": "Software role is not the target and onsite full-time conflicts",
+    "review_status": "author_provisional",
+    "preference_mode_match": false
+  },
+  {
+    "student_id": "S07",
+    "opportunity_id": "O04",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 1,
+    "preference_type_match": true,
+    "rationale": "Remote internship fits eligibility and preferences; partial Java/Git gap",
+    "review_status": "author_provisional",
+    "preference_mode_match": true
+  },
+  {
+    "student_id": "S07",
+    "opportunity_id": "O05",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 0,
+    "preference_type_match": false,
+    "rationale": "Full-time hybrid and missing business requirements",
+    "review_status": "author_provisional",
+    "preference_mode_match": false
+  },
+  {
+    "student_id": "S07",
+    "opportunity_id": "O06",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 1,
+    "preference_type_match": false,
+    "rationale": "Transferable SQL/statistics but onsite full-time conflicts",
+    "review_status": "author_provisional",
+    "preference_mode_match": false
+  },
+  {
+    "student_id": "S07",
+    "opportunity_id": "O07",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 0,
+    "preference_type_match": false,
+    "rationale": "Security role outside background and preferences",
+    "review_status": "author_provisional",
+    "preference_mode_match": false
+  },
+  {
+    "student_id": "S07",
+    "opportunity_id": "O08",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 0,
+    "preference_type_match": true,
+    "rationale": "Hybrid security internship lacks required security skills",
+    "review_status": "author_provisional",
+    "preference_mode_match": false
+  },
+  {
+    "student_id": "S07",
+    "opportunity_id": "O09",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 0,
+    "preference_type_match": false,
+    "rationale": "Healthcare domain absent and full-time hybrid conflicts",
+    "review_status": "author_provisional",
+    "preference_mode_match": false
+  },
+  {
+    "student_id": "S07",
+    "opportunity_id": "O10",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 0,
+    "preference_type_match": true,
+    "rationale": "Onsite healthcare internship lacks domain experience",
+    "review_status": "author_provisional",
+    "preference_mode_match": false
+  },
+  {
+    "student_id": "S07",
+    "opportunity_id": "O11",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 0,
+    "preference_type_match": false,
+    "rationale": "Onsite full-time risk role outside intended path",
+    "review_status": "author_provisional",
+    "preference_mode_match": false
+  },
+  {
+    "student_id": "S07",
+    "opportunity_id": "O12",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 1,
+    "preference_type_match": true,
+    "rationale": "Remote internship matches preferences with transferable SQL but finance specialization gap",
+    "review_status": "author_provisional",
+    "preference_mode_match": true
+  },
+  {
+    "student_id": "S08",
+    "opportunity_id": "O01",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 1,
+    "preference_type_match": true,
+    "rationale": "Reporting skills transfer, but hybrid differs from onsite-only preference",
+    "review_status": "author_provisional",
+    "preference_mode_match": false
+  },
+  {
+    "student_id": "S08",
+    "opportunity_id": "O02",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 0,
+    "preference_type_match": false,
+    "rationale": "Internship and data science specialization do not match",
+    "review_status": "author_provisional",
+    "preference_mode_match": true
+  },
+  {
+    "student_id": "S08",
+    "opportunity_id": "O03",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 0,
+    "preference_type_match": true,
+    "rationale": "Backend software skills and field absent",
+    "review_status": "author_provisional",
+    "preference_mode_match": true
+  },
+  {
+    "student_id": "S08",
+    "opportunity_id": "O04",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 0,
+    "preference_type_match": false,
+    "rationale": "Remote internship and software skills mismatch",
+    "review_status": "author_provisional",
+    "preference_mode_match": false
+  },
+  {
+    "student_id": "S08",
+    "opportunity_id": "O05",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 1,
+    "preference_type_match": true,
+    "rationale": "Excel and analytics transfer, but hybrid differs from onsite preference",
+    "review_status": "author_provisional",
+    "preference_mode_match": false
+  },
+  {
+    "student_id": "S08",
+    "opportunity_id": "O06",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 2,
+    "preference_type_match": true,
+    "rationale": "SQL/Power BI, full-time onsite align despite different academic field",
+    "review_status": "author_provisional",
+    "preference_mode_match": true
+  },
+  {
+    "student_id": "S08",
+    "opportunity_id": "O07",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 0,
+    "preference_type_match": true,
+    "rationale": "Security domain and skills absent",
+    "review_status": "author_provisional",
+    "preference_mode_match": true
+  },
+  {
+    "student_id": "S08",
+    "opportunity_id": "O08",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 0,
+    "preference_type_match": false,
+    "rationale": "Security internship mismatch",
+    "review_status": "author_provisional",
+    "preference_mode_match": false
+  },
+  {
+    "student_id": "S08",
+    "opportunity_id": "O09",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 2,
+    "preference_type_match": true,
+    "rationale": "Clinical reporting domain and SQL fit; hybrid differs from onsite preference",
+    "review_status": "author_provisional",
+    "preference_mode_match": false
+  },
+  {
+    "student_id": "S08",
+    "opportunity_id": "O10",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 1,
+    "preference_type_match": false,
+    "rationale": "Healthcare and Excel fit, but internship conflicts",
+    "review_status": "author_provisional",
+    "preference_mode_match": true
+  },
+  {
+    "student_id": "S08",
+    "opportunity_id": "O11",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 1,
+    "preference_type_match": true,
+    "rationale": "Statistics and Excel transfer, with finance field gap",
+    "review_status": "author_provisional",
+    "preference_mode_match": true
+  },
+  {
+    "student_id": "S08",
+    "opportunity_id": "O12",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 0,
+    "preference_type_match": false,
+    "rationale": "Remote finance internship mismatch",
+    "review_status": "author_provisional",
+    "preference_mode_match": false
+  },
+  {
+    "student_id": "S09",
+    "opportunity_id": "O01",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 1,
+    "preference_type_match": true,
+    "rationale": "SQL transfers but analyst focus and hybrid role are partial",
+    "review_status": "author_provisional",
+    "preference_mode_match": true
+  },
+  {
+    "student_id": "S09",
+    "opportunity_id": "O02",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 0,
+    "preference_type_match": false,
+    "rationale": "Internship onsite conflicts with full-time hybrid goal",
+    "review_status": "author_provisional",
+    "preference_mode_match": false
+  },
+  {
+    "student_id": "S09",
+    "opportunity_id": "O03",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 2,
+    "preference_type_match": true,
+    "rationale": "Python/Git software fit despite finance background; onsite conflicts with hybrid",
+    "review_status": "author_provisional",
+    "preference_mode_match": false
+  },
+  {
+    "student_id": "S09",
+    "opportunity_id": "O04",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 1,
+    "preference_type_match": false,
+    "rationale": "Java/Git match but remote internship conflicts with full-time goal",
+    "review_status": "author_provisional",
+    "preference_mode_match": false
+  },
+  {
+    "student_id": "S09",
+    "opportunity_id": "O05",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 1,
+    "preference_type_match": true,
+    "rationale": "Hybrid full-time matches preferences, with partial business skill fit",
+    "review_status": "author_provisional",
+    "preference_mode_match": true
+  },
+  {
+    "student_id": "S09",
+    "opportunity_id": "O06",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 1,
+    "preference_type_match": true,
+    "rationale": "SQL transfers but onsite and Power BI gap",
+    "review_status": "author_provisional",
+    "preference_mode_match": false
+  },
+  {
+    "student_id": "S09",
+    "opportunity_id": "O07",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 0,
+    "preference_type_match": true,
+    "rationale": "Security requirements absent",
+    "review_status": "author_provisional",
+    "preference_mode_match": false
+  },
+  {
+    "student_id": "S09",
+    "opportunity_id": "O08",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 0,
+    "preference_type_match": false,
+    "rationale": "Security internship and hybrid do not offset skill gap",
+    "review_status": "author_provisional",
+    "preference_mode_match": true
+  },
+  {
+    "student_id": "S09",
+    "opportunity_id": "O09",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 0,
+    "preference_type_match": true,
+    "rationale": "Full-time hybrid fits but healthcare expertise missing",
+    "review_status": "author_provisional",
+    "preference_mode_match": true
+  },
+  {
+    "student_id": "S09",
+    "opportunity_id": "O10",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 0,
+    "preference_type_match": false,
+    "rationale": "Healthcare internship mismatch",
+    "review_status": "author_provisional",
+    "preference_mode_match": false
+  },
+  {
+    "student_id": "S09",
+    "opportunity_id": "O11",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 1,
+    "preference_type_match": true,
+    "rationale": "Finance field aligns but onsite mode and statistics gap",
+    "review_status": "author_provisional",
+    "preference_mode_match": false
+  },
+  {
+    "student_id": "S09",
+    "opportunity_id": "O12",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 1,
+    "preference_type_match": false,
+    "rationale": "Finance and SQL align but remote internship conflicts",
+    "review_status": "author_provisional",
+    "preference_mode_match": false
+  },
+  {
+    "student_id": "S10",
+    "opportunity_id": "O01",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 0,
+    "preference_type_match": false,
+    "rationale": "Analyst domain and full-time hybrid mismatch",
+    "review_status": "author_provisional",
+    "preference_mode_match": false
+  },
+  {
+    "student_id": "S10",
+    "opportunity_id": "O02",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 1,
+    "preference_type_match": true,
+    "rationale": "Python transfers but onsite internship conflicts with remote mode",
+    "review_status": "author_provisional",
+    "preference_mode_match": false
+  },
+  {
+    "student_id": "S10",
+    "opportunity_id": "O03",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 1,
+    "preference_type_match": false,
+    "rationale": "Python transfers but full-time onsite conflicts",
+    "review_status": "author_provisional",
+    "preference_mode_match": false
+  },
+  {
+    "student_id": "S10",
+    "opportunity_id": "O04",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 0,
+    "preference_type_match": true,
+    "rationale": "Remote internship fits preferences but Java/Git skill gap",
+    "review_status": "author_provisional",
+    "preference_mode_match": true
+  },
+  {
+    "student_id": "S10",
+    "opportunity_id": "O05",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 0,
+    "preference_type_match": false,
+    "rationale": "Business analyst skills absent",
+    "review_status": "author_provisional",
+    "preference_mode_match": false
+  },
+  {
+    "student_id": "S10",
+    "opportunity_id": "O06",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 0,
+    "preference_type_match": false,
+    "rationale": "Onsite full-time reporting mismatch",
+    "review_status": "author_provisional",
+    "preference_mode_match": false
+  },
+  {
+    "student_id": "S10",
+    "opportunity_id": "O07",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 2,
+    "preference_type_match": false,
+    "rationale": "Strong Linux/security match, but onsite full-time conflicts with remote internship goal",
+    "review_status": "author_provisional",
+    "preference_mode_match": false
+  },
+  {
+    "student_id": "S10",
+    "opportunity_id": "O08",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 2,
+    "preference_type_match": true,
+    "rationale": "Security skills and internship match, but hybrid conflicts with remote-only mode",
+    "review_status": "author_provisional",
+    "preference_mode_match": false
+  },
+  {
+    "student_id": "S10",
+    "opportunity_id": "O09",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 0,
+    "preference_type_match": false,
+    "rationale": "Clinical data domain absent",
+    "review_status": "author_provisional",
+    "preference_mode_match": false
+  },
+  {
+    "student_id": "S10",
+    "opportunity_id": "O10",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 0,
+    "preference_type_match": true,
+    "rationale": "Healthcare onsite internship mismatch",
+    "review_status": "author_provisional",
+    "preference_mode_match": false
+  },
+  {
+    "student_id": "S10",
+    "opportunity_id": "O11",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 0,
+    "preference_type_match": false,
+    "rationale": "Finance onsite full-time mismatch",
+    "review_status": "author_provisional",
+    "preference_mode_match": false
+  },
+  {
+    "student_id": "S10",
+    "opportunity_id": "O12",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 0,
+    "preference_type_match": true,
+    "rationale": "Remote internship fits preferences but finance/Excel skills absent",
+    "review_status": "author_provisional",
+    "preference_mode_match": true
+  },
+  {
+    "student_id": "S11",
+    "opportunity_id": "O01",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 2,
+    "preference_type_match": false,
+    "rationale": "Strong SQL/Tableau analyst skills and hybrid mode; full-time differs from internship preference",
+    "review_status": "author_provisional",
+    "preference_mode_match": true
+  },
+  {
+    "student_id": "S11",
+    "opportunity_id": "O02",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 1,
+    "preference_type_match": true,
+    "rationale": "Python/statistics fit but onsite differs from hybrid preference",
+    "review_status": "author_provisional",
+    "preference_mode_match": false
+  },
+  {
+    "student_id": "S11",
+    "opportunity_id": "O03",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 0,
+    "preference_type_match": false,
+    "rationale": "Software field and full-time onsite mismatch",
+    "review_status": "author_provisional",
+    "preference_mode_match": false
+  },
+  {
+    "student_id": "S11",
+    "opportunity_id": "O04",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 0,
+    "preference_type_match": true,
+    "rationale": "Remote software internship lacks Java/Git",
+    "review_status": "author_provisional",
+    "preference_mode_match": false
+  },
+  {
+    "student_id": "S11",
+    "opportunity_id": "O05",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 1,
+    "preference_type_match": false,
+    "rationale": "Analytics and hybrid match; requirements skill absent and full-time differs",
+    "review_status": "author_provisional",
+    "preference_mode_match": true
+  },
+  {
+    "student_id": "S11",
+    "opportunity_id": "O06",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 1,
+    "preference_type_match": false,
+    "rationale": "SQL transfers but Power BI missing and onsite full-time differs",
+    "review_status": "author_provisional",
+    "preference_mode_match": false
+  },
+  {
+    "student_id": "S11",
+    "opportunity_id": "O07",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 0,
+    "preference_type_match": false,
+    "rationale": "Security skills absent",
+    "review_status": "author_provisional",
+    "preference_mode_match": false
+  },
+  {
+    "student_id": "S11",
+    "opportunity_id": "O08",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 0,
+    "preference_type_match": true,
+    "rationale": "Hybrid internship preferences fit but security skills absent",
+    "review_status": "author_provisional",
+    "preference_mode_match": true
+  },
+  {
+    "student_id": "S11",
+    "opportunity_id": "O09",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 1,
+    "preference_type_match": false,
+    "rationale": "SQL and hybrid match; healthcare skill absent and full-time differs",
+    "review_status": "author_provisional",
+    "preference_mode_match": true
+  },
+  {
+    "student_id": "S11",
+    "opportunity_id": "O10",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 0,
+    "preference_type_match": true,
+    "rationale": "Onsite healthcare internship lacks domain fit",
+    "review_status": "author_provisional",
+    "preference_mode_match": false
+  },
+  {
+    "student_id": "S11",
+    "opportunity_id": "O11",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 1,
+    "preference_type_match": false,
+    "rationale": "Statistics transfer but onsite full-time and finance focus differ",
+    "review_status": "author_provisional",
+    "preference_mode_match": false
+  },
+  {
+    "student_id": "S11",
+    "opportunity_id": "O12",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 1,
+    "preference_type_match": true,
+    "rationale": "SQL transfers but remote finance internship differs from hybrid mode",
+    "review_status": "author_provisional",
+    "preference_mode_match": false
+  },
+  {
+    "student_id": "S12",
+    "opportunity_id": "O01",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 1,
+    "preference_type_match": true,
+    "rationale": "SQL transfers but Tableau missing and hybrid differs from remote preference",
+    "review_status": "author_provisional",
+    "preference_mode_match": false
+  },
+  {
+    "student_id": "S12",
+    "opportunity_id": "O02",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 1,
+    "preference_type_match": false,
+    "rationale": "Python skill fits but onsite internship conflicts",
+    "review_status": "author_provisional",
+    "preference_mode_match": false
+  },
+  {
+    "student_id": "S12",
+    "opportunity_id": "O03",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 0,
+    "preference_type_match": true,
+    "rationale": "Backend role and onsite full-time mismatch",
+    "review_status": "author_provisional",
+    "preference_mode_match": false
+  },
+  {
+    "student_id": "S12",
+    "opportunity_id": "O04",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 0,
+    "preference_type_match": false,
+    "rationale": "Remote internship but software skill gap",
+    "review_status": "author_provisional",
+    "preference_mode_match": true
+  },
+  {
+    "student_id": "S12",
+    "opportunity_id": "O05",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 1,
+    "preference_type_match": true,
+    "rationale": "Excel transfers but hybrid and requirements skill gap",
+    "review_status": "author_provisional",
+    "preference_mode_match": false
+  },
+  {
+    "student_id": "S12",
+    "opportunity_id": "O06",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 1,
+    "preference_type_match": true,
+    "rationale": "SQL transfers but onsite mode and Power BI gap",
+    "review_status": "author_provisional",
+    "preference_mode_match": false
+  },
+  {
+    "student_id": "S12",
+    "opportunity_id": "O07",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 0,
+    "preference_type_match": true,
+    "rationale": "Security skills absent",
+    "review_status": "author_provisional",
+    "preference_mode_match": false
+  },
+  {
+    "student_id": "S12",
+    "opportunity_id": "O08",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 0,
+    "preference_type_match": false,
+    "rationale": "Security hybrid internship mismatch",
+    "review_status": "author_provisional",
+    "preference_mode_match": false
+  },
+  {
+    "student_id": "S12",
+    "opportunity_id": "O09",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 2,
+    "preference_type_match": true,
+    "rationale": "Healthcare/SQL domain match, but hybrid differs from remote-only preference",
+    "review_status": "author_provisional",
+    "preference_mode_match": false
+  },
+  {
+    "student_id": "S12",
+    "opportunity_id": "O10",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 1,
+    "preference_type_match": false,
+    "rationale": "Healthcare and Excel fit, but onsite internship conflicts",
+    "review_status": "author_provisional",
+    "preference_mode_match": false
+  },
+  {
+    "student_id": "S12",
+    "opportunity_id": "O11",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 1,
+    "preference_type_match": true,
+    "rationale": "Excel transfers but finance and onsite mismatch",
+    "review_status": "author_provisional",
+    "preference_mode_match": false
+  },
+  {
+    "student_id": "S12",
+    "opportunity_id": "O12",
+    "eligibility_status": "not_assessed",
+    "relevance_grade": 1,
+    "preference_type_match": false,
+    "rationale": "Remote mode and Excel/SQL match but finance internship differs from full-time target",
+    "review_status": "author_provisional",
+    "preference_mode_match": true
+  }
+]
