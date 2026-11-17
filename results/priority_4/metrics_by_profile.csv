@@ -1,0 +1,13 @@
+student_id,split,method,candidate_count,top3_count,top3_coverage,precision_at_3_zero_fill,ndcg_at_3_full_catalog_ideal
+S07,development,soft_structured,12,3,1,0.6666666666666666,0.7653606369886217
+S07,development,strict_preference_filter,2,2,0.6666666666666666,0.6666666666666666,0.7653606369886217
+S08,development,soft_structured,12,3,1,1,0.9514426589871553
+S08,development,strict_preference_filter,4,3,1,0.6666666666666666,0.6732934624429354
+S09,development,soft_structured,12,3,1,1,1
+S09,development,strict_preference_filter,3,3,1,0.6666666666666666,0.3631143808977028
+S10,evaluation,soft_structured,12,3,1,1,1
+S10,evaluation,strict_preference_filter,2,2,0.6666666666666666,0,0
+S11,evaluation,soft_structured,12,3,1,1,1
+S11,evaluation,strict_preference_filter,1,1,0.3333333333333333,0,0
+S12,evaluation,soft_structured,12,3,1,1,1
+S12,evaluation,strict_preference_filter,0,0,0,0,0
