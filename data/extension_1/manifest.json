@@ -1,0 +1,16 @@
+{
+  "version": "extension_1",
+  "status": "provisional_pre_evaluation",
+  "original_benchmark": "unchanged",
+  "profiles": 6,
+  "opportunities_reused": 12,
+  "annotation_pairs": 72,
+  "hash_algorithm": "sha256",
+  "sha256": {
+    "profiles.json": "1537cf7686dd8e0c31e13cb33edf79cdbe221c3cbed795f8842ab93bc680097b",
+    "labels.json": "8f5f1464c6a7a2857fefb32487fa411fd5bbafa19ab870627383d394ccb0dd2f",
+    "split.json": "e2ba449dc821682835a564ac7539d8d0c020b634c6a2de57ab69d37c67bc3863",
+    "labeling_rubric.md": "81317636fceae92ebe1b250e6b40a7e6822251e3b9839a209f4f6e886df055b9",
+    "README.md": "967f1057e7c351cf321ee08ca431881ee4daca4f33ad9314a42a02d13213f91c"
+  }
+}
