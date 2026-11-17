@@ -1,0 +1,16 @@
+{
+  "protocol": "predeclared profile-level split; do not alter after outcome inspection",
+  "seed": "manual fixed assignment; no random search",
+  "development": [
+    "S07",
+    "S08",
+    "S09"
+  ],
+  "evaluation": [
+    "S10",
+    "S11",
+    "S12"
+  ],
+  "candidate_opportunities": "data/synthetic/opportunities.json",
+  "independent_review": "pending"
+}
