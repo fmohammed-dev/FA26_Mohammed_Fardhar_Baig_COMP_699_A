@@ -1,0 +1,5 @@
+split,method,profiles,mean_candidates,mean_top3_coverage,mean_precision_at_3_zero_fill,mean_ndcg_at_3_full_catalog_ideal
+development,soft_structured,3,12,1,0.8888888888888888,0.9056010986585923
+development,strict_preference_filter,3,3,0.8888888888888888,0.6666666666666666,0.6005894934430867
+evaluation,soft_structured,3,12,1,1,1
+evaluation,strict_preference_filter,3,1,0.3333333333333333,0,0
