@@ -1,0 +1,92 @@
+[
+  {
+    "student_id": "S07",
+    "field": "computer_science",
+    "skills": [
+      "python",
+      "sql",
+      "statistics",
+      "tableau"
+    ],
+    "preferred_type": "internship",
+    "preferred_modes": [
+      "remote"
+    ],
+    "scenario_note": "Preference conflict: strong data skills, remote internship only"
+  },
+  {
+    "student_id": "S08",
+    "field": "health_informatics",
+    "skills": [
+      "sql",
+      "powerbi",
+      "excel",
+      "statistics"
+    ],
+    "preferred_type": "full_time",
+    "preferred_modes": [
+      "onsite"
+    ],
+    "scenario_note": "Transferable reporting background with onsite preference"
+  },
+  {
+    "student_id": "S09",
+    "field": "finance",
+    "skills": [
+      "python",
+      "git",
+      "java",
+      "sql"
+    ],
+    "preferred_type": "full_time",
+    "preferred_modes": [
+      "hybrid"
+    ],
+    "scenario_note": "Transferable software skills from finance field"
+  },
+  {
+    "student_id": "S10",
+    "field": "cybersecurity",
+    "skills": [
+      "linux",
+      "security",
+      "networking",
+      "python"
+    ],
+    "preferred_type": "internship",
+    "preferred_modes": [
+      "remote"
+    ],
+    "scenario_note": "Remote-only preference despite strong onsite security match"
+  },
+  {
+    "student_id": "S11",
+    "field": "business_analytics",
+    "skills": [
+      "sql",
+      "tableau",
+      "statistics",
+      "python"
+    ],
+    "preferred_type": "internship",
+    "preferred_modes": [
+      "hybrid"
+    ],
+    "scenario_note": "Analyst skill overlap with internship and hybrid restrictions"
+  },
+  {
+    "student_id": "S12",
+    "field": "data_science",
+    "skills": [
+      "excel",
+      "sql",
+      "healthcare",
+      "python"
+    ],
+    "preferred_type": "full_time",
+    "preferred_modes": [
+      "remote"
+    ],
+    "scenario_note": "Transferable clinical skills and remote preference"
+  }
+]
