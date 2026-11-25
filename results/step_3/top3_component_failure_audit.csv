@@ -1,0 +1,5 @@
+student_id,opportunity_id,skill_rank,structured_rank,skill_coverage,field_match,preference_match,weighted_skill,weighted_field,weighted_preference,structured_score,best_relevant_outside_structured_top3,best_relevant_score
+S01,O03,3,5,0.5,0.0,0.5,0.300,0.000,0.075,0.375,O06,0.625
+S02,O02,4,3,0.5,1.0,0.5,0.300,0.250,0.075,0.625,O01,0.3
+S04,O02,3,3,0.5,0.0,0.5,0.300,0.000,0.075,0.375,O03,0.3
+S05,O12,3,3,1.0,0.0,0.5,0.600,0.000,0.075,0.6749999999999999,O01,0.44999999999999996
