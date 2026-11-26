@@ -70,3 +70,7 @@ Run `python src/run_week3_evidence.py` from the repository root to recreate the 
 
 - [Preliminary evidence report](docs/step_2/week_3/preliminary_evidence.pdf)
 - [Editable report](docs/step_2/week_3/preliminary_evidence.md)
+
+## Step 3 ranking diagnostics
+
+The frozen rankings are compared at K=1, 3 and 5. Structured NDCG is higher at all three cutoffs; precision and recall improve at K=5, while macro recall decreases at K=3. See [progress report](docs/step_3/progress_report.md) and [cutoff summary](results/step_3/cutoff_summary.csv). The new audit and regression tests are committed; Python execution remains pending.
